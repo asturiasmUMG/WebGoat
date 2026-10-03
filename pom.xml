@@ -97,6 +97,7 @@
          Groovy 5 that Spring Boot 4 ships (5.x targets Groovy 4 and fails at runtime). -->
     <rest-assured.version>6.0.1</rest-assured.version>
     <spotless-maven-plugin.version>3.10.2</spotless-maven-plugin.version>
+    <sonar.organization>asturiasmumg</sonar.organization>
     <waittimeForServerStart>60</waittimeForServerStart>
     <webdriver.version>6.3.4</webdriver.version>
     <webgoat.context>/WebGoat</webgoat.context>
@@ -110,10 +111,7 @@
     <xml-resolver.version>1.2</xml-resolver.version>
     <xstream.version>1.4.5</xstream.version>
     <!-- do not update necessary for lesson -->
-    <zxcvbn.version>1.9.0</zxcvbn.version>
-    
-    <sonar.organization>asturiasmumg</sonar.organization>
-    
+    <zxcvbn.version>1.9.0</zxcvbn.version>    
   </properties>
 
   <dependencyManagement>
